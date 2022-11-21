@@ -17,5 +17,10 @@ public class Modal {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	public Modal(String name, int age) {
+		super();
+		Name = name;
+		this.age = age;
+	}
 
 }
